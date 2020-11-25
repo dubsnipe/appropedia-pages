@@ -1,0 +1,26 @@
+{
+    "id": "3ED5D351",
+    "path": "~/data/appropedia-devices/page_analysis.Rmd",
+    "project_path": "page_analysis.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1606338407307.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "cursorPosition": "64,2",
+        "scrollLine": "51"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1606339617,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1606339618243,
+    "read_only": false,
+    "read_only_alternatives": []
+}

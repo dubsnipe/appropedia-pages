@@ -1,0 +1,18 @@
+"0","all_pages <- as_tibble(pages_trans)
+
+all_pages$timestamp <- as_date(all_pages$timestamp)
+
+# https://stackoverflow.com/questions/33221425/how-do-i-group-my-date-variable-into-month-year-in-r
+by_period <- all_pages %>% group_by(month=floor_date(timestamp, ""14 days"")) %>% summarize(n = n())
+"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"
+"0",""
+"0","by_period %>%"
+"0","  ggplot(aes(x=month, y=n, color=n)) + "
+"0","  geom_point() + "
+"0","  ggtitle(""Number of 'last' edits over time"") + "
+"0","  xlab(""Date"") + "
+"0","  ylab(""Edits"") + "
+"0","  scale_color_gradient(low = ""#2ca25f"", high= ""#2ca25f"") + theme_minimal()"
+"0",""
